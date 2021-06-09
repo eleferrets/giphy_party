@@ -12,9 +12,15 @@ async function getResults(evt) {
     const response = await fetch(gifUrl);
     const jsonResponse = await response.json();
     const data = jsonResponse.data;
-    // console.log(data);
+    console.log(data);
 }
 
-function displayResults() {
+/*function displayResults(data) {
+    data.forEach(el => {
+        gifResults.innerHTML += `
+    <div>
+    <img src="response[index].image.rendition.url" alt="">
+    </div>`
+    });
 
-}
+}*/
