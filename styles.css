@@ -10,3 +10,13 @@
 body {
     background-color: bisque;
 }
+
+button {
+    color: aliceblue;
+    background-color: black;
+    padding: 0.5em;
+}
+
+h1 {
+    color: rgb(95, 32, 10);
+}
