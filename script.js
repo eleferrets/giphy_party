@@ -7,4 +7,14 @@ const rating = "g";
 gifForm.addEventListener("submit", getResults);
 async function getResults(evt) {
     evt.preventDefault();
+    const query = evt.target.gif.value;
+    const gifUrl = `http://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}`;
+    const response = await fetch(gifUrl);
+    const jsonResponse = await response.json();
+    const data = jsonResponse.data;
+    // console.log(data);
+}
+
+function displayResults() {
+
 }
