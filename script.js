@@ -60,7 +60,7 @@ function displayResults(data) {
     data.forEach(el => {
         gifResults.innerHTML += `
     <div>
-    <img src="${el.images.original.url}" alt="">
+    <img src="${el.images.original.url}" alt="Gif of ${el.images.original.url}">
     </div>`
     });
 
