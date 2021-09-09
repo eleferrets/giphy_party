@@ -3,7 +3,7 @@ const btnForm = document.querySelector("form");
 const gifInput = document.querySelector("#gif");
 const gifResults = document.querySelector(".gif-results");
 const moreResults = document.querySelector("#more-btn");
-
+/* Get the key outta here during commits */
 const limit = 9;
 const rating = "g";
 var pages = 0;
